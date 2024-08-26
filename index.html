@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルメモ帳</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>シンプルメモ帳</h1>
+        <textarea id="editor" class="editor" placeholder="ここにメモを入力..."></textarea>
+        <button id="save-btn">メモを保存</button>
+        <h2>保存されたメモ</h2>
+        <button id="edit-btn" style="display:none;">編集</button>
+        <button id="cancel-btn" style="display:none;">キャンセル</button>
+        <div id="notes-list"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
